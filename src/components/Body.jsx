@@ -1,7 +1,13 @@
+import Footer from "./Footer";
+import Home from "./Home";
+import Navbar from "./Navbar";
+
 const Body = ()=>{
     return (
-        <div className="w-screen h-screen bg-black">
-            <h1 className="text-white">Hi Keshav</h1> 
+        <div>
+            <Navbar/>
+            <Home/>
+            <Footer/>
         </div>
     )
 }
