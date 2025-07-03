@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-   <footer className="footer sm:footer-horizontal bg-[#1B1B1B] w-screen text-neutral-content items-center p-4 ">
-  <div className="grid-flow-col items-center">
+   <footer className="footer sm:footer-horizontal bg-[#1B1B1B] w-screen text-neutral-content items-center p-4">
+  <div className="grid-flow-col items-center px-52">
    
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </div>
-  <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+  <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end px-60">
     <a>
       <svg
         xmlns="http://www.w3.org/2000/svg"

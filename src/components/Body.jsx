@@ -1,12 +1,13 @@
+import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import Home from "./Home";
 import Navbar from "./Navbar";
 
 const Body = ()=>{
     return (
-        <div>
+        <div className="w-screen h-screen bg-[#080808] overflow-x-hidden">
             <Navbar/>
-            <Home/>
+            <Outlet/>
             <Footer/>
         </div>
     )

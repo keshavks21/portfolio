@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav>
         <ul className="text-[#9C9C9C] flex justify-evenly text-xl">
           <li><Link to={"/"}>Home</Link></li>
-          <li><Link>Project</Link></li>
+          <li><Link to={"/project"}>Project</Link></li>
           <li><a href="https://drive.google.com/file/d/1sJKqpZepnDwAxZf8EK1476-0ejIUa9EK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
           <li><Link >Contact</Link></li>
          
