@@ -5,9 +5,11 @@ import Navbar from "./Navbar";
 
 const Body = ()=>{
     return (
-        <div className="w-screen h-screen bg-[#080808] overflow-x-hidden">
+        <div className="w-screen min-h-screen flex flex-col bg-[#080808] overflow-x-hidden">
             <Navbar/>
+            <div className="flex-grow">
             <Outlet/>
+            </div>
             <Footer/>
         </div>
     )

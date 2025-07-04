@@ -3,7 +3,7 @@ import profileImg from "../utils/KeshavImage.jpeg"
 
 const Home = () => {
   return (
-     <div className="w-screen h-screen bg-[#080808] flex justify-evenly items-center ">
+     <div className="w-screen min-h-screen bg-[#080808] flex justify-evenly items-center ">
             <div className='text-white w-[30%] font-mono'>
                 <h1 className='text-5xl font-bold'>Keshav Kumar</h1>
                 <p className='my-4 text-xl '>Hi, I'm a MERN stack developer with strong programming skills and a passion for building scalable, user-friendly web applications.</p>
