@@ -3,6 +3,7 @@ import "./App.css"
 import Body from "./components/Body";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
+import Contacts from "./components/Contacts";
 
 const App = ()=>{
   return (
@@ -12,6 +13,7 @@ const App = ()=>{
         <Route path="/" element={<Body/>}>
           <Route index element={<Home/>}/>
           <Route path="/project" element={<Projects/>}/>
+          <Route path="/contacts" element={<Contacts/>}/>
         </Route>
       </Routes>
       </BrowserRouter>
