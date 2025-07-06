@@ -9,7 +9,7 @@ const Projects = () => {
     <div className='bg-[#080808]  flex justify-center z-10 py-25'>
       <div className='w-[75%]  text-white p-4'>
         {/* Project1 */}
-        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10'>
+        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10 hover:scale-105 transition-transform duration-600'>
             <img src={project1Img} alt="project image" 
             className='w-[45%] rounded-2xl  object-cover shadow-lg'/>
             <div className='mx-4 p-2 '>
@@ -46,7 +46,7 @@ const Projects = () => {
         </div>
 
         {/* Project2 */}
-        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10'>
+        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10 hover:scale-105 transition-transform duration-600'>
             <img src={project2Img} alt="project image" 
             className='w-[45%] rounded-2xl  object-cover shadow-lg'/>
             <div className='mx-4 p-2 '>
@@ -82,7 +82,7 @@ const Projects = () => {
             </div>
         </div>
         {/* Project3 */}
-        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10'>
+        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10 hover:scale-105 transition-transform duration-600'>
             <img src={project3Img} alt="project image" 
             className='w-[45%] rounded-2xl  object-cover shadow-lg'/>
             <div className='mx-4 p-2 '>

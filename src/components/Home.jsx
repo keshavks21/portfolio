@@ -4,13 +4,13 @@ import profileImg from "../utils/KeshavImage.jpeg"
 const Home = () => {
   return (
      <div className="w-screen min-h-screen bg-[#080808] flex justify-evenly items-center ">
-            <div className='text-white w-[30%] font-mono'>
-                <h1 className='text-5xl font-bold'>Keshav Kumar</h1>
-                <p className='my-4 text-xl '>Hi, I'm a MERN stack developer with strong programming skills and a passion for building scalable, user-friendly web applications.</p>
-                <div className='p-4 w-[50%] bg-[#3F8E00] flex justify-center font-semibold text-xl rounded-md shadow-lg shadow-[#62BA1B]/40'>Developer</div>
+            <div className='text-white w-[30%] font-mono '>
+                <h1 className='text-5xl font-bold text-green-600 my-4'>Keshav Kumar</h1>
+                <p className='my-4 text-xl '>I'm a full-stack <span className='text-green-400'>MERN developer </span> with strong problem-solving skills, focused on building smooth, scalable websites and writing clean, reliable backend code.</p>
+                <div className='p-4 w-[50%] mt-10 bg-green-600 flex justify-center font-semibold text-2xl rounded-md shadow-lg shadow-green-400/40 hover:scale-105 transition-transform duration-300'>Developer</div>
             </div>
-            <div >
-                <img src={profileImg} alt="" className='rounded-full'/>
+            <div className=''>
+                <img src={profileImg} alt="" className='rounded-full border-5 border-green-500 hover:scale-105 transition-transform duration-300'/>
             </div>
     </div>
   )
