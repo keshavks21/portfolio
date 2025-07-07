@@ -1,27 +1,29 @@
-import React from 'react'
+import {form_ID}from "../utils/secret";
 
 const Contacts = () => {
   return (
-    <div className='bg-[#080808]  flex justify-center z-10 py-25'>
-      <div className='w-[75%] text-white bg-[#121212] p-10 flex justify-center rounded-xl font-mono'>
-        <div className='bg-[#1F1F1F] w-[60%] mr-8 rounded-md '> 
-          <form className=' p-5'>
+    <div className='bg-[#080808]  flex justify-center z-10 py-25 px-8'>
+      <div className='md:w-[75%] text-white bg-[#121212] p-2 md:p-10 flex flex-col md:flex-row justify-center rounded-xl font-mono'>
+        <div className='bg-[#1F1F1F] md:w-[60%] md:mr-8 mb-2 md:mb-0 md:p-5 rounded-md '> 
+          <form action={`https://formspree.io/f/${form_ID}`} method="POST"
+          className=' p-3 '>
+            
             <h1 className='text-2xl font-semibold text-emerald-400 mb-4'>We’d Love to Hear from You</h1>
-            <div className='flex flex-row pb-4'>
+            <div className='flex flex-col md:flex-row pb-4 '>
 
             <div className='w-[80%] my-2 mr-4 flex flex-col justify-between'>
               <label className='font-semibold'>Name</label>
-              <input type="text" name="" id=""  className='border-2 bg-[#333] py-1 px-4 rounded-sm'/>
+              <input type="text" name="name" id=""  className='border-2 bg-[#333] py-1 px-4 rounded-sm'/>
             </div>
             <div className=' w-[80%] my-2 flex flex-col justify-between'>
               <label className='font-semibold'>E-mail</label>
-              <input type="text" name="" id="" className='border-2 bg-[#333] py-1 px-4 rounded-sm'/>
+              <input type="email" name="email" id="" className='border-2 bg-[#333] py-1 px-4 rounded-sm'/>
             </div>
             </div>
 
             <div className=''>
               <label className='font-semibold'>Message</label>
-              <textarea type="text" name="" id="" className='border-2 bg-[#333] w-full h-[100px] py-1 px-4 rounded-sm'/>
+              <textarea type="text" name="message" id="" className='border-2 bg-[#333] w-full h-[100px] py-1 px-4 rounded-sm'/>
             </div>
 
             <div className='mt-4 '>
@@ -33,13 +35,13 @@ const Contacts = () => {
           </form>  
         </div>
         
-        <div className='bg-[#1F1F1F] w-[35%] rounded-md p-5'>
+        <div className='bg-[#1F1F1F] md:w-[35%] rounded-md p-3 md:p-5 mt-2 md:mt-0'>
           <h1 className='text-2xl text-emerald-400 font-semibold'>Contact Info</h1>
-          <p className='my-2'> <strong>Email :</strong> 
+          <p className='my-2 '> <strong>Email:</strong> 
             <a href='mailto:keshavks9810@gmail.com '
             className='mx-2'>keshavks9810@gmail.com</a></p>
-          <p className=' my-2'><strong>Location :</strong> 
-          <a href='mailto:keshavks9810@gmail.com' className='mx-2'>Faridabad</a></p>
+          <p className=' my-2'><strong>Location:</strong> 
+          <a className='mx-2'>Faridabad</a></p>
           
            <p className='my-2 font-bold'> <a href='https://linkedin.com/in/keshavks' className='hover:text-blue-300 transition-colors duration-200'>🌐Linkedin</a></p>
          

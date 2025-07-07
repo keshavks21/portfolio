@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom'
 const Projects = () => {
   return (
     <div className='bg-[#080808]  flex justify-center z-10 py-25'>
-      <div className='w-[75%]  text-white p-4'>
+      <div className='md:w-[75%]  text-white px-8'>
         {/* Project1 */}
-        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10 hover:scale-105 transition-transform duration-600'>
+        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-2 md:p-8 flex flex-col md:flex-row mb-10 hover:scale-105 transition-transform duration-600'>
             <img src={project1Img} alt="project image" 
-            className='w-[45%] rounded-2xl  object-cover shadow-lg'/>
-            <div className='mx-4 p-2 '>
-                <h1 className='text-emerald-400 text-3xl font-bold mb-2'>DevCirle <span className='text-sm text-gray-400 ml-5'>(Full Stack)</span></h1>
+            className='md:w-[45%]  rounded-2xl  object-cover shadow-lg'/>
+            <div className='md:mx-4 py-2 md:p-2 '>
+                <h1 className='text-emerald-400 text-3xl font-bold mb-2'>DevCirle <span className='text-sm text-gray-400 md:ml-5'>(Full Stack)</span></h1>
                 <h3 className='text-gray-400 text-sm mb-4'>A platform for developers to create profiles, connect, and collaborate. DevCircle lets users edit profiles, authenticate securely, and interact in a modern, responsive UI.</h3>
                 <div className='my-2 '>
                   <h2 className='mb-2 text-gray-300 font-semibold'>Key Features :</h2>
@@ -46,24 +46,24 @@ const Projects = () => {
         </div>
 
         {/* Project2 */}
-        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10 hover:scale-105 transition-transform duration-600'>
+        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-2 md:p-8 flex flex-col md:flex-row mb-10 hover:scale-105 transition-transform duration-600'>
             <img src={project2Img} alt="project image" 
-            className='w-[45%] rounded-2xl  object-cover shadow-lg'/>
-            <div className='mx-4 p-2 '>
+            className='md:w-[45%] rounded-2xl  object-cover shadow-lg'/>
+            <div className='md:mx-4 py-2 md:p-2'>
                 <h1 className='text-emerald-400 text-3xl font-bold mb-2'>Netflix-Clone <span className='text-sm text-gray-400 ml-5'>(Frontend)</span></h1>
                 <h3 className='text-gray-400 text-sm mb-4'>A full-stack clone of Netflix with dynamic movie content using TMDB API, user authentication, and responsive design.</h3>
                 <div className='my-2 '>
                   <h2 className='mb-2 text-gray-300 font-semibold'>Key Features :</h2>
                   <ul className='grid grid-cols-2 gap-2  text-md text-gray-300 '>
-                    <li className='bg-[#333] rounded-md px-2 py-1'>🔐 JWT Authentication</li>
-                    <li className='bg-[#333] rounded-md px-2 py-1'>🧾 RESTful APIs</li>
-                    <li className='bg-[#333] rounded-md px-2 py-1'>🧑‍💻 Editable Profiles</li>
+                    <li className='bg-[#333] rounded-md px-2 py-1'>🔐 Firebase Authentication</li>
+                    <li className='bg-[#333] rounded-md px-2 py-1'>🎬  TMDB API Integration</li>
+                    <li className='bg-[#333] rounded-md px-2 py-1'>🧑‍💻 Search for Movies</li>
                     <li className='bg-[#333] rounded-md px-2 py-1'>📱 Mobile Responsive</li>
                   </ul>
                 </div>
 
                 <div className='my-4 flex flex-wrap gap-2 text-xs py-2'>
-                  {["React", "Firebase Auth", "Tailwind", "TMDB API"].map((techStack,index)=>(
+                  {["React", "Firebase Auth", "Tailwind CSS", "TMDB API"].map((techStack,index)=>(
                     <span key={index} className='bg-[#333] text-gray-300 px-2 py-1 rounded-md'>
                       {techStack}
                     </span>
@@ -82,12 +82,12 @@ const Projects = () => {
             </div>
         </div>
         {/* Project3 */}
-        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-8 flex flex-row mb-10 hover:scale-105 transition-transform duration-600'>
+        <div className='w-full bg-[#1F1F1F] text-gray-200 rounded-2xl p-2 md:p-8 flex flex-col md:flex-row mb-10 hover:scale-105 transition-transform duration-600'>
             <img src={project3Img} alt="project image" 
-            className='w-[45%] rounded-2xl  object-cover shadow-lg'/>
-            <div className='mx-4 p-2 '>
+            className='md:w-[45%] rounded-2xl  object-cover shadow-lg'/>
+            <div className='md:mx-4 py-2 md:p-2'>
                 <h1 className='text-emerald-400 text-3xl font-bold mb-2'>Amazone-Clone  <span className='text-sm text-gray-400 ml-5'>(Frontend)</span></h1>
-                <h3 className='text-gray-400 text-sm mb-4'>A full-stack clone of Netflix with dynamic movie content using TMDB API, user authentication, and responsive design.</h3>
+                <h3 className='text-gray-400 text-sm mb-4'>A static Amazon-inspired UI built using React, showcasing product listings, navigation bar, and basic layout – currently without responsive design support.</h3>
 
                 <div className='my-4 flex flex-wrap gap-2 text-xs py-2'>
                   {["HTML", "CSS"].map((techStack,index)=>(
