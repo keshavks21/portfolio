@@ -52,7 +52,7 @@ const Projects = () => {
             className='md:w-[45%] rounded-2xl  object-cover shadow-lg'/>
             <div className='md:mx-4 py-2 md:p-2'>
                 <h1 className='text-emerald-400 text-3xl font-bold mb-2'>PortFolio<span className='text-sm text-gray-400 ml-5'>(Frontend)</span></h1>
-                <h3 className='text-gray-400 text-sm mb-4'>A full-stack clone of Netflix with dynamic movie content using TMDB API, user authentication, and responsive design.</h3>
+                <h3 className='text-gray-400 text-sm mb-4'>A personal portfolio website built with React.js to showcase my projects, achievements, and skills.</h3>
                 <div className='my-2 '>
                   <h2 className='mb-2 text-gray-300 font-semibold'>Key Features :</h2>
                   <ul className='grid grid-cols-2 gap-2  text-md text-gray-300 '>
@@ -72,7 +72,7 @@ const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   >🌐Live Demo</a>
-                  <a href="https://github.com/keshavks21/Netflix-Project"
+                  <a href="https://github.com/keshavks21/portfolio"
                   target='_blank'
                   rel='noopener noreferrer'
                   >💻GitHub</a>

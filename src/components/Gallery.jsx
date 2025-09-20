@@ -17,7 +17,7 @@ const Gallery = () => {
     >
       <div className="border-b-1 border-white mx-auto mb-20 w-[80%]"></div>
       <div className="w-[80%] mx-auto">
-        <h2 className="text-center text-5xl font-bold text-green-400 mb-12 underline underline-offset-4 decoration-green-400">
+        <h2 className="text-center text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-20 decoration-green-400">
           Highlights  
         </h2>
 

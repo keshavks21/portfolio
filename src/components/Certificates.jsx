@@ -13,7 +13,7 @@ const Certificates = () => {
       <div className="w-[80%] mx-auto">
         
         {/* Section Heading */}
-        <h2 className="text-center text-5xl font-bold text-green-400 mb-12 underline underline-offset-4 decoration-green-400">
+        <h2 className="text-center text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-20 decoration-green-400">
           Certificates
         </h2>
 

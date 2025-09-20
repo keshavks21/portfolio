@@ -5,14 +5,14 @@ const Skills = () => {
     <section className="w-full bg-[#080808] text-white px-6 py-16">
         <div className="border-b-1 border-white mx-auto mb-20 w-[80%]"></div>
 
-      <h2 className="text-center text-5xl font-bold text-green-400 mb-12 underline underline-offset-4">
+      <h2 className="text-center text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-20 ">
         My Skills & Technologies
       </h2>
 
       <div className="max-w-5xl mx-auto space-y-12">
         {/* Technical Skills */}
         <div className="text-center">
-          <h3 className="flex items-center justify-center text-xl font-semibold text-green-400 mb-6 hover:underline hover:underline-offset-1">
+          <h3 className="flex items-center justify-center text-xl font-semibold text-green-400 mb-6 underline underline-offset-1">
             <FaCode className="mr-2 " /> Technical Skills
           </h3>
           
@@ -40,7 +40,7 @@ const Skills = () => {
 
         {/* DSA Skills */}
         <div className="text-center">
-          <h3 className="flex items-center justify-center text-xl font-semibold text-blue-400 mb-6 hover:underline hover:underline-offset-1">
+          <h3 className="flex items-center justify-center text-xl font-semibold text-blue-400 mb-6 underline underline-offset-1">
             <FaBrain className="mr-2" /> DSA Skills
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
@@ -59,7 +59,7 @@ const Skills = () => {
 
         {/* Tools & Technologies */}
         <div className="text-center">
-          <h3 className="flex items-center justify-center text-xl font-semibold text-purple-400 mb-6 hover:underline hover:underline-offset-1">
+          <h3 className="flex items-center justify-center text-xl font-semibold text-purple-400 mb-6 underline underline-offset-1">
             <FaTools className="mr-2" /> Tools & Technologies
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
@@ -84,7 +84,7 @@ const Skills = () => {
 
         {/* Soft Skills */}
         <div className="text-center">
-          <h3 className="flex items-center justify-center text-xl font-semibold text-yellow-400 mb-6 hover:underline hover:underline-offset-1">
+          <h3 className="flex items-center justify-center text-xl font-semibold text-yellow-400 mb-6 underline underline-offset-1">
             <FaUsers className="mr-2" /> Soft Skills
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
