@@ -12,7 +12,7 @@ const Gallery = () => {
 
   return (
     <section
-      className="w-full bg-[#080808] text-white px-6 py-16"
+      className="w-full bg-[#080808] text-white md:px-6 py-16"
       id="gallery"
     >
       <div className="border-b-1 border-white mx-auto mb-20 w-[80%]"></div>
@@ -23,7 +23,7 @@ const Gallery = () => {
 
         {/* Horizontal Scroll Container */}
         <motion.div
-          className="flex space-x-6 overflow-x-scroll no-scrollbar px-2"
+          className="flex space-x-6 overflow-x-scroll no-scrollbar md:px-2"
           whileTap={{ cursor: "grabbing" }}
         >
           {images.map((src, index) => (

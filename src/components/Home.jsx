@@ -8,7 +8,7 @@ import Certificates from './Certificates'
 const Home = () => {
   return (
     <div>
-        <div className="w-screen min-h-screen pt-10 md:pt-0 bg-[#080808] flex flex-col-reverse md:flex-row md:justify-evenly md:items-center">
+        <div className="w-screen mt-10 md:mt-0 min-h-screen pt-10 md:pt-0 bg-[#080808] flex flex-col-reverse md:flex-row md:justify-evenly md:items-center">
             <div className='text-white px-6 mb-10 md:px-0 md:mb-0 md:w-[30%] font-mono '>
                 <h1 className='text-5xl font-bold text-green-400 my-4'>Keshav Kumar</h1>
                 <p className='my-4 text-xl '>I'm a full-stack <span className='text-green-400'>MERN developer </span> with strong problem-solving skills, focused on building smooth, scalable websites and writing clean, reliable backend code.</p>
@@ -21,7 +21,7 @@ const Home = () => {
   whileHover={{ scale: 1.2 }}
   src={profileImg}
   alt="Profile"
-  className="rounded-full border-4 border-green-600 cursor-grab"
+  className="rounded-full border-4 border-green-600 cursor-grab mx-2 md:mx-0"
   transition={{ type: "spring", stiffness: 200, damping: 10 }} // smooth & slow
 />
 

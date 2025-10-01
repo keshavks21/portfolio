@@ -2,7 +2,7 @@ import { FaCode, FaBrain, FaUsers, FaTools } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <section className="w-full bg-[#080808] text-white px-6 py-16">
+    <section className="w-full bg-[#080808] text-white md:px-6 py-16">
         <div className="border-b-1 border-white mx-auto mb-20 w-[80%]"></div>
 
       <h2 className="text-center text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-20 ">
@@ -11,7 +11,7 @@ const Skills = () => {
 
       <div className="max-w-5xl mx-auto space-y-12">
         {/* Technical Skills */}
-        <div className="text-center">
+        <div className="text-center px-2 md:px-0">
           <h3 className="flex items-center justify-center text-xl font-semibold text-green-400 mb-6 underline underline-offset-1">
             <FaCode className="mr-2 " /> Technical Skills
           </h3>
@@ -39,7 +39,7 @@ const Skills = () => {
         </div>
 
         {/* DSA Skills */}
-        <div className="text-center">
+        <div className="text-center px-2 md:px-0">
           <h3 className="flex items-center justify-center text-xl font-semibold text-blue-400 mb-6 underline underline-offset-1">
             <FaBrain className="mr-2" /> DSA Skills
           </h3>
@@ -58,7 +58,7 @@ const Skills = () => {
         </div>
 
         {/* Tools & Technologies */}
-        <div className="text-center">
+        <div className="text-center px-2 md:px-0">
           <h3 className="flex items-center justify-center text-xl font-semibold text-purple-400 mb-6 underline underline-offset-1">
             <FaTools className="mr-2" /> Tools & Technologies
           </h3>
@@ -83,7 +83,7 @@ const Skills = () => {
         </div>
 
         {/* Soft Skills */}
-        <div className="text-center">
+        <div className="text-center px-2 md:px-0">
           <h3 className="flex items-center justify-center text-xl font-semibold text-yellow-400 mb-6 underline underline-offset-1">
             <FaUsers className="mr-2" /> Soft Skills
           </h3>
